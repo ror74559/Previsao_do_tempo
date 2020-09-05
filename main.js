@@ -1,18 +1,13 @@
+import forecast from './functions/forecast.js'
 
-import geoLocation from './functions/geoLocation.js'
+import generalInfo from './functions/generalInfo.js'
 
-import api from './functions/api.js'
+generalInfo()
 
-import api2 from './functions/api2.js'
-
-
+forecast()
 
 
-geoLocation()
 
-api()
-
-api2()
 
 
 
