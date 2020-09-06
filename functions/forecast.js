@@ -6,6 +6,14 @@ import todayForecast from '../modules/todayForecast.js'
 
 
 export default async function forecast (){
+					let btn = document.querySelector('#btnLocForecast')
+
+					let content1 = document.querySelector("#content1")
+
+					btn.style.display = 'none'
+
+					content1.innerHTML = '<div class="spinner-border"></div>'
+
 					try{
 
 					let latPosition = await geoLocation()

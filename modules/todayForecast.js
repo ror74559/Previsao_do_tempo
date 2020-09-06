@@ -16,6 +16,7 @@ export default function todayForecast(forecast){
 								  <div> <h1>${forecast.temp}°C</h1> </div>
 								  <div> <h4>${forecast.description}</h4> <h5>${hours}</h5></div>
 							  </div>`
+					
 
 					 for (let i = 1; i < 6; i++) {
 

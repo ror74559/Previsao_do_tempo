@@ -4,8 +4,12 @@ import generalInfo from './functions/generalInfo.js'
 
 generalInfo()
 
-forecast()
 
+let btn = document.querySelector('#btnLocForecast')
+
+btn.addEventListener('click', forecast)
+
+//
 
 
 
